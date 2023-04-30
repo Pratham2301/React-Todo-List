@@ -324,6 +324,7 @@ const Todo = () => {
                               mt: 5
                            }}>
                               <Button variant="contained"
+                              onClick={()=>clearAll()}
                               sx={{
                                  backgroundColor: "#222C89",
                               }}
