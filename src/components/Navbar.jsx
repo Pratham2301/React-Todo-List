@@ -11,7 +11,7 @@ import './Navbar.css'
 function Navbar() {
    return (
       <>
-         <Box sx={{ flexGrow: 1 }}>
+         <Box sx={{}}>
 
             <AppBar position="sticky" sx={{
                boxSizing: "border-box",
@@ -23,10 +23,11 @@ function Navbar() {
             }}>
 
                <Toolbar>
-                  <Typography variant="h6" component="div"
+                  <Typography variant="h6" component="div" id="div1"
                      sx={{
                         flexGrow: 1,
-                        padding: "0 5rem"
+                        padding: "0 5rem",
+                        fontWeight: "600"
                      }}>
                         
                      TODO LIST
